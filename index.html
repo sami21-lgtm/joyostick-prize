@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang = "bn";
+  <head>
+  <meta charset = "UTF-8">
+  <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+  <title>Interactive Premium Controller Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="product-card" id="mainCard">
+            
+            <div class="image-showcase">
+                <span class="badge">New Release</span>
+                <img id="mainImage" src="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?q=80&w=600&auto=format&fit=crop" alt="Premium Controller">
+            </div>
+
+            <div class="details-area">
+                <h1 class="product-title" id="mainTitle">Ocean Surge Wireless Controller</h1>
+                
+                <div class="price-container">
+                    <span class="current-price">৳<span id="displayPrice">6,500</span></span>
+                    <span class="original-price" id="oldPrice">৳7,500</span>
+                </div>
+
+                <div class="section-title">Select Color Variant</div>
+                <div class="color-selector">
+                    <div class="color-dot dot-blue active" data-color="blue" data-price="6500" data-old="7500" data-title="Ocean Surge Wireless Controller" data-img="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?q=80&w=600&auto=format&fit=crop"></div>
+                    <div class="color-dot dot-red" data-color="red" data-price="6800" data-old="7800" data-title="Magma Crimson Pro Controller" data-img="https://images.unsplash.com/photo-1592840496694-26d035b52b4d?q=80&w=600&auto=format&fit=crop"></div>
+                    <div class="color-dot dot-gold" data-color="gold" data-price="7200" data-old="8500" data-title="Imperial Gold Luxury Edition" data-img="https://images.unsplash.com/photo-1612287230202-1bf1d85d1bdf?q=80&w=600&auto=format&fit=crop"></div>
+                    <div class="color-dot dot-green" data-color="green" data-price="6600" data-old="7600" data-title="Forest Cyberpunk Controller" data-img="https://images.unsplash.com/photo-1550745165-9bc0b252726f?q=80&w=600&auto=format&fit=crop"></div>
+                    <div class="color-dot dot-white" data-color="white" data-price="6300" data-old="7200" data-title="Alpine Frost Minimalist Edition" data-img="https://images.unsplash.com/photo-1593305841991-05c297ba4575?q=80&w=600&auto=format&fit=crop"></div>
+                </div>
+
+                <div class="section-title">Extra Joystick & Gear</div>
+                <div class="addon-box">
+                    <input type="checkbox" id="joystickCheckbox" data-addon-value="1200">
+                    <label for="joystickCheckbox" class="addon-item">
+                        <div class="addon-info">
+                            <div class="custom-checkbox"></div>
+                            <span>+1 Pair Pro Thumbsticks</span>
+                        </div>
+                        <div class="addon-price">+৳1,200</div>
+                    </label>
+                </div>
+
+                <p class="prod-desc">Experience next-gen response rates, customizable RGB lightbars, and pro ergonomics tailored perfectly for extended high-tier gaming sessions.</p>
+
+                <button class="action-btn" onclick="alert('Order Successful!')">Buy Now</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html></title>
